@@ -17,9 +17,6 @@ A dedicated section providing detailed information on:
 
 - **Dataset Details**: Overview of the NSDUH dataset, key variables used, and their classification (categorical vs. numerical)
 - **Technology Stack**: An interactive display of all the tools and libraries used in the project, with logos and descriptions
-- **Team Members**: Introduction to the project team, including their roles and contributions
-- **Project Roadmap**: Outlining current functionalities and future enhancements
-- **Resources & Materials**: Access to relevant project documents (e.g., proposals, reports, presentations) embedded directly within the application for easy viewing
 
 ### Clean User Interface
 Built with Streamlit, providing an intuitive and responsive user experience with custom styling and hidden default Streamlit elements for a cleaner look.
@@ -36,21 +33,6 @@ your_project_folder/
 ├── predictive_model.py         # Manages the predictive model training and inference
 ├── utils.py                    # Utility functions (e.g., for mapping OHE features to readable names)
 ├── assets/                     # Directory for static assets like images and PDFs
-│   ├── logos/                  # Contains all logo images for the technology stack
-│   │   ├── 8110ce8ecd7903031e8567dc24e18d9a.png
-│   │   ├── streamlit-logo-png_seeklogo-458260.png
-│   │   ├── images.png
-│   │   ├── Daco_6050027.png
-│   │   ├── Daco_2081341.png
-│   │   ├── images (1).png
-│   │   ├── kaggle-logo-png_seeklogo-335156.png
-│   │   ├── favpng_6ddb1184688372784e3bc0512c9260be.png
-│   │   └── jupyter-logo-png_seeklogo-354673.png
-│   └── pdfs/                   # Contains embedded PDF documents
-│       ├── project_proposal.pdf
-│       ├── data_dictionary.pdf
-│       ├── technical_report.pdf
-│       └── presentation_slides.pdf
 ├── pages/                      # Directory for page-specific UI components (prefixed with '_' to avoid auto-detection)
 │   ├── __init__.py             # Makes 'pages' a Python package
 │   ├── _home.py                # Defines the content and layout for the Home page
